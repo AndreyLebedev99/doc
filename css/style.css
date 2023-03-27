@@ -17,6 +17,9 @@ input {
 p {
 	line-height: 1;
 }
+.text-centr {
+	text-align: center;
+}
 .wrapper {
 	width: auto;
 	padding: 0;
@@ -137,11 +140,17 @@ p {
 	margin-left: 8px;
 	margin-right: 12px;
 }
+#documentType {
+	width: 323px;
+}
+#documentSeries {
+	width: 90px;
+}
 #series {
 	width: 70px;
 }
 #documentNum {
-	width: 131px;
+	width: 202px;
 }
 #num {
 	margin-left: 11px;
