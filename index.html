@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link media="print" rel="stylesheet" href="./css/print.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Blank</title>
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<div class="forma">
+			<span>Форма №3</span>
+		</div>
+
+
+		<div class="svidetelstvo">
+			<div class="ebarcode">
+				<span>eBarcode.com</span>
+				<img src="./qrcode.jpg" class="qrcode" alt="">
+			</div>
+			<div class="svidetelstvo-text">
+				<span class="svidetelstvo-letspc">СВИДЕТЕЛЬСТВО</span>
+				<input type="text" class="svidetelstvo-num" value="123">
+				<span class="svidetelstvo-reg">о регистрации по месту прибывания</span>
+			</div>
+
+		</div>
+		<div class="vidano">
+			<span>Выдано</span>
+			<input type="text" class="vidano-inp1 .vidano-inp"><br>
+			<input type="text" class="vidano-inp2 .vidano-inp">
+			<span class="fio">(Ф.И.О. (при наличии), год и место рождения)</span>
+		</div>
+
+		<div class="location">о том, что он(а) зарегестрирован(а) по месту пребывания по адресу:</div>
+		<input type="text" class="location-inp">
+		<input type="text" class="location-inp">
+		<div class="location-txt">(республика, край, область, округ, район, город, пгт, село, деревня, аул, улица, дом, корпус, квартира)</div>
+
+		<div class="srok" id="srok">
+			<span class="srok-text1">на срок с</span>
+			« <input type="text" class="srok-2 srok-do"> »
+			<input type="text" class="srok-3 srok-do">
+			<input type="text" class="srok-4 srok-do">
+			<span class="srok-text2">г.</span>
+			<span class="srok-text3">по</span>
+			« <input type="text" class="srok-2 srok-posle"> »
+			<input type="text" class="srok-3 srok-posle">
+			<input type="text" class="srok-last srok-posle">
+			г.
+		</div>
+
+		<div class="text">Свидетельство выдано к документу, удостоверяющему личность</div>
+		<div class="document">
+			<span class="type">Вид</span>
+			<input type="text" id="type">,
+			<span class="series">серия</span>
+			<input type="text" id="series">,
+			<span class="num">№</span>
+			<input type="text" id="num">
+			<span class="date">дата выдачи</span>
+			« <input type="text" class="srok-2" id="documentDay"> »
+			<input type="text" class="srok-3" id="documentMonth">
+			<input type="text" class="srok-4"
+			id="documentYear">
+			<span class="srok-text2">г.</span>
+		</div>
+
+		<input type="text" id="kemVidan">
+		<div class="kem-txt">(наименование органа, учреждения, выдавшего документ)</div>
+
+		<div class="" id="boss">
+			<span class="boss-text">Начальник(руководитель) органа регистрационого учета</span>
+			<input type="text" class="boss1">
+			<input type="text" class="boss2">
+			<div class="boss-subtext">(наименование органа регистрационного учета)</span>
+		</div>
+
+		<div class="podp-inic">
+			<input type="text" id="podp">
+			( <input type="text" id="inic"> )
+		</div>
+
+		<div class="m-p">
+			<span>М.П.</span>
+			<div class="m-p-data">
+				« <input type="text" class="srok-2" id="mPDay"> »
+				<input type="text" class="srok-3 m-p-inp" id="mPMonth">
+				<input type="text" class="srok-4" id="mPYear">
+			<span class="srok-text2">г.</span>
+		</div>
+		</div>
+	</div>
+
+
+</body>
+
+</html>

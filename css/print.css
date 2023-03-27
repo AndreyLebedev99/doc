@@ -1,0 +1,201 @@
+@page {
+	margin: 20mm 30mm;
+}
+@media print {
+	html, body{	
+		height: 297mm;
+		width: 210mm;
+	
+		font-size: 16px;
+	
+		display: flex;
+		flex-direction: column;
+	}
+	
+	input {
+		text-transform: uppercase;
+		border-bottom: 1px solid #000;
+		font-size: 20px;
+	}
+	
+	p {
+		line-height: 1;
+	}
+	.wrapper {
+		width: auto;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+	}
+	.forma {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.svidetelstvo {
+		margin: 120px 0px 0px 0px;
+	
+		display: flex;
+		justify-content: flex-start;
+	}
+	.ebarcode {
+		margin: 0px -41px 0px 0px;
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.ebarcode span {
+		font-size: 14px;
+	}
+	.qrcode {
+		margin: 20px 0px 0px 0px;
+		
+		width: 50px;
+		height: 50px;
+	}
+	.svidetelstvo-text {
+		margin: 65px 0px 0px 0px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.svidetelstvo-letspc{
+		margin: 0px  13px 0px 0px;
+		
+		letter-spacing: 9px;
+	}
+	.svidetelstvo-num {
+		border-bottom: 1px solid black;
+		text-align: center;
+	}
+	
+	.svidetelstvo-reg {
+		margin-left: 26px;
+		font-size: 12px;
+		width: 26%;
+	
+	}
+	
+	.vidano span {
+		margin-right: 14px;
+	}
+	.vidano-inp1 {
+		width: 91%;
+	}
+	.vidano-inp2 {
+		width: 100%;
+	}
+	.fio {
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		font-size: 12px;
+	}
+	.location {
+		margin-top: 10px;
+	}
+	
+	.location-inp {
+		width: 100%;
+	}
+	.location-txt {
+		margin-right: 88px;
+		font-size: 12px;
+		text-align: center;
+	}
+	.srok-text1 {
+		margin-right: 23px;
+	}
+	.srok-2 {
+		margin: 0px 2px;
+		width: 30px;
+		text-align: center;
+	}
+	.srok-3 {
+		margin-left: 14px;
+		margin-right: 19px;
+		width: 120px;
+		text-align: center;
+	}
+	.srok-4 {
+		width: 50px;
+		margin-right: 5px;
+		text-align: center;
+	}
+	.srok-text3 {
+		margin: 0 60px;
+	}
+	.srok-last {
+		width: 41px;
+	}
+	.text {
+		margin-top: 15px;
+	}
+	.type {
+		margin-right: 42px;
+	}
+	#type {
+		width: 343px;
+	}
+	.series {
+		margin-left: 8px;
+		margin-right: 12px;
+	}
+	#series {
+		width: 70px;
+	}
+	#num {
+		margin-left: 11px;
+		width: 198px;
+	}
+	.date {
+		display: inline-block;
+		margin-top: 10px;
+	}
+	#kemVidan{
+		margin-top: 20px;
+		padding-bottom: 10px;
+	}
+	.kem-txt {
+		font-size: 14px;
+		text-align: center;
+	}
+	#boss {
+		margin-top: 10px;
+	}
+	.boss-text {
+		margin-right: 127px;
+	}
+	.boss1 {
+		width: 276px;
+	}
+	.boss2 {
+		width: 100%;
+	}
+	.boss-subtext {
+		font-size: 14px;
+		text-align: center;
+	}
+	.podp-inic {
+		margin-top: 70px;
+		display: flex;
+		justify-content: flex-end;
+	}
+	#podp {
+		width: 240px;
+	}
+	#inic{
+		margin: 0 4px;
+		width: 235px;
+	}
+	.m-p {
+		margin-top: 30px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.m-p-inp {
+		margin: 0 10px 0 0;
+		width: 100px;
+		text-transform: none;
+	}
+}
