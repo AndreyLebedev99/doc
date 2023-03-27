@@ -10,7 +10,6 @@ html, body{
 }
 
 input {
-	text-transform: uppercase;
 	border-bottom: 1px solid #000;
 	font-size: 20px;
 }
@@ -168,9 +167,12 @@ p {
 }
 .boss1 {
 	width: 252px;
+	text-transform: none;
+
 }
 .boss2 {
 	width: 100%;
+	text-transform: none;
 }
 .boss-subtext {
 	font-size: 14px;
