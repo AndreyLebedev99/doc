@@ -180,6 +180,8 @@
 		margin-top: 70px;
 		display: flex;
 		justify-content: flex-end;
+		text-align: center;
+		font-style: italic;
 	}
 	#podp {
 		width: 240px;
