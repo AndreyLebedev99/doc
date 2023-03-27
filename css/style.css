@@ -77,7 +77,7 @@ p {
 	margin-right: 14px;
 }
 .vidano-inp1 {
-	width: 91%;
+	width: 718px;
 }
 .vidano-inp2 {
 	width: 100%;
@@ -120,7 +120,7 @@ p {
 	text-align: center;
 }
 .srok-text3 {
-	margin: 0 60px;
+	margin: 0 54px;
 }
 .srok-last {
 	width: 41px;
@@ -140,6 +140,9 @@ p {
 }
 #series {
 	width: 70px;
+}
+#documentNum {
+	width: 131px;
 }
 #num {
 	margin-left: 11px;
@@ -164,7 +167,7 @@ p {
 	margin-right: 127px;
 }
 .boss1 {
-	width: 276px;
+	width: 252px;
 }
 .boss2 {
 	width: 100%;
