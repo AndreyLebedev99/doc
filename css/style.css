@@ -180,6 +180,9 @@ p {
 	margin-top: 70px;
 	display: flex;
 	justify-content: flex-end;
+	
+}
+.podp-inic input {
 	text-align: center;
 	font-style: italic;
 }
